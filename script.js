@@ -1,5 +1,3 @@
-let inputNum = document.getElementById("inputNum").value;
-let outputOrder = document.getElementById("outputOrder");
 
 function submit() {
     let inputNum = document.getElementById("inputNum").value.trim();
