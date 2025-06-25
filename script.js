@@ -2,8 +2,11 @@ function submit() {
     let inputNum = document.getElementById("inputNum").value.trim();
     let outputOrder = document.getElementById("outputOrder");
 
-    if (inputNum == "") {
+    if (inputNum === "") {
         alert("Please enter a number");
+        return;
+    } else if (isNaN(inputNum)) {
+        alert("Please enter a valid number");
         return;
     }
 
