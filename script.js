@@ -3,10 +3,10 @@ function submit() {
     let outputOrder = document.getElementById("outputOrder");
 
     if (inputNum === "") {
-        alert("Please enter a number");
+        alert("Please enter a valid number!");
         return;
     } else if (isNaN(inputNum)) {
-        alert("Please enter a valid number");
+        alert("Please enter a valid number, not a string!");
         return;
     }
 
