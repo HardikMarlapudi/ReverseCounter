@@ -5,10 +5,6 @@ function submit() {
     if (inputNum == "") {
         alert("Please enter a number");
         return;
-    } else if (inputNum.includes()) {
-        inputNum = parseInt(inputNum);
-        alert("Please enter only one number");
-        return;
     }
 
     let numArray = inputNum.split(" ");
